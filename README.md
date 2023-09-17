@@ -30,5 +30,30 @@ The purpose of this project will be to create a to create a a tool that provides
 
 ## Infrastructure
 
-## Objects
-### Tables
+## Dimensional Modeling
+
+Use Kimball 4-step dimensional modeling process.
+
+### Select the Business Process
+
+The business process is the music album review.
+
+### Declare the Grain
+
+The grain is the album review.
+
+### Identify Dimensions
+
+- Review
+    - Publisher
+    - Author
+    - Date
+- Album
+    - Release date
+- Artist 
+    - Name
+
+### Identify the Facts
+
+- Album rating
+
